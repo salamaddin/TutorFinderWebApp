@@ -1,0 +1,168 @@
+.ForNav{
+    height: 80px;
+}
+
+/* for Login Text  */
+.container {
+  /* background-color: #000; */
+  position: absolute;
+  width: 100%;
+  display: flex;
+  top: 90px;
+  justify-content: center;
+}    
+.shadows {
+    position: relative;
+    text-transform: uppercase;
+    text-shadow: -15px 5px 20px #030303;
+    color: white;
+    letter-spacing: -0.05em;
+    font-family: 'Anton', Arial, sans-serif;
+    user-select: none;
+    text-transform: uppercase;
+    font-size: 90px;
+    transition: all 0.25s ease-out;
+}
+.shadows:hover {
+    text-shadow: -16px 6px 15px #ced0d3;
+}
+
+.mainDiv{
+    background-image: url("../assets/loginBacMob.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.loginDiv{
+    background-color:rgb(105, 100, 99,0.4);
+    border-radius: 2px 43px;
+    position: relative;
+    padding: 4rem;
+    margin: 5px;
+    width: 50%;
+    height: 350px;
+    -moz-box-shadow: 10px 10px 16px #000000;
+    -webkit-box-shadow: 10px 10px 16px #000000;
+    box-shadow: 10px 10px 16px #000000;
+    
+
+}
+
+.form__label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    margin-left: 1.7rem;
+    margin-top: .7rem;
+    color:white;
+    display: block;
+    transition: all 0.3s;
+    transform: translateY(-6.4rem);
+  }
+  
+  .form__input {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border-radius: 0.7rem 0.4px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 90%;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+  }
+  .btnDiv{
+    /* background-color: #000000; */
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+ 
+  /* Login Section  Start */
+  span{
+    position: relative;
+    display: inline-flex;
+    width: 180px;
+    height: 55px;
+    margin: -10px 165px;
+    perspective: 1000px;
+  }
+  span a{
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  span a:before,
+  span a:after{
+    position: absolute;
+    content: "Login";
+    height: 55px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  span a:before{
+    color: #fff;
+    background: #000;
+    transform: rotateY(0deg) translateZ(25px);
+  }
+  span a:after{
+    color: #000;
+    transform: rotateX(90deg) translateZ(25px);
+  }
+  span a:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+  }
+  /* Login Section End  */
+
+
+
+  /* placeholder Styles */
+  .form__input:placeholder-shown + .form__label {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(-4rem);
+    transform: translateY(-4rem);
+  }
+    /* for Tablets  */
+    @media Screen and ( max-width: 950px)  {
+      .loginDiv{
+        /* background-color: aqua; */
+        width: 60%;
+        position: relative;
+        padding: 4rem 1rem;
+        margin-top: 10px;
+    }
+    .shadows{
+      font-size: 60px;
+    }
+    }
+  /* for Mobile Screen  */
+  @media Screen and ( max-width: 800px){
+    .loginDiv{
+      /* background-color: aqua; */
+      width: 90%;
+      position: relative;
+      padding: 4rem 1rem;
+      margin-top: 10px;
+  }
+  .shadows{
+    font-size: 60px;
+  }
+  }
+

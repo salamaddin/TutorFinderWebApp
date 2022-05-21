@@ -1,0 +1,57 @@
+.forHeading{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.howWorkBlock {
+    display: inline-block;
+    justify-content: center;
+    width: 28.9%;
+    margin: 0 2%;
+    padding:10px;
+}
+.howWorkBlock .hwTitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: #3b3b3b;
+    margin: 10px 0;
+}
+
+.howWorkBlock .hwDesc {
+    font-size: 14px;
+    color: rgb(11, 9, 9);
+    display: flex;
+    justify-content: center;
+    padding-top: -30px;
+}
+.howWorkBlock img{
+    margin-left: 135px;
+}
+.howWorkBlock p span{
+margin-left: 25%;
+display: flex;
+justify-content: center;
+}
+.forButton{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.forButton button{
+    height: 30px;
+    width: 120px;
+    font-size: 16px;
+    color:aliceblue;
+    background-color: rgb(11, 87, 217);
+    border-radius: 5px;
+    border: none;
+    
+}
+.forButton button:hover{
+    background-color: #163cf6;
+    cursor:pointer;
+}
+.forButton button:active{
+    background-color: #71d474;
+    color: black;
+}

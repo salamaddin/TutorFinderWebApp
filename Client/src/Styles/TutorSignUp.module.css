@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .forNavbar{
+    height: 80px;
+    width: 100%;
+  }
+  .finalDiv{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(183, 187, 248);
+    background-image: url("../assets/images/signup.png");
+    background-position: left;
+    background-size: 400px 500px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: end;
+  }
+  .forTutorSignup{
+    width: 940px;
+    height: 600px;
+    padding-top: 13px;
+    padding-left: 80px;
+    padding-right: 60px;
+  }
+  input{
+  
+    width: 40%;
+    height: 30px;
+    border-radius: 0px 12px ;
+    padding: 10px;
+    margin: 20px;
+  }
+ .forSelect{
+     font-size: 22px;
+     width: 40%;
+     height: 22px;
+     padding: 10px;
+     margin: 20px;
+     
+ }
+ .select_class{
+    width: 40%;
+    margin: 20px;
+    height: 5px;
+ }
+ 
+
+.forsubmitButton{
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 30px;
+  padding-top: -10;
+  height: 40px;
+  position: relative;
+  left: 90px;
+  width: 60%;
+}
+
+.forsubmitButton :hover {
+  background-color: aquamarine;
+}
+
+@media (min-width: 768px) {
+  .forsubmitButton{
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
